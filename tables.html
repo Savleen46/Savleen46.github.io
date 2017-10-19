@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<style>
+        	body{ background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/Diamond-Grey-Seamless-Pattern-For-Website-Background.jpg");}
         	table, th, td{ 
    				border:1px solid black;
-   				border-collapse:collapse;
+   				
    				padding:10px;
    				}
    
@@ -14,21 +15,34 @@
    
    			th, td{
    				font-family:Georgia;
-   				size:20px;}
-                
-            #h1{ font-family:Georgia; 
+   				}
             
+            h1{ font-size:30px;
+                font-family:Georgia;
+                color:Green;
+                text-align:center;}
+         	
+            #lo{ font-size:30px;
+                font-family:Georgia;
+                color:Purple;
                 }
-            h{ font-family:Georgia;
-            size:20px;}
+           
+           #movies{color:Teal;}
             
-
+            #lin{color:Brown;}
+            img{ width:250px;
+                 height:150px;
+                 display:block;
+                 margin:auto;}
+          
+           
 		</style>
 
 	</head>
 	<body>
     
-    	<b><font-size<h id="h1">Movies</h></b>
+    	<h1 id="lo">Movies</h1>
+        <a href="http://www.imdb.com/title/tt2948356/"><img src="http://ll-c.ooyala.com/e1/UybXNvYjE6G4k4bm_7E4QEyVkIBrLEZg/promo324699018"></a>
  		<table id="movies"> 
         	<tr>
             	<th>Title</th>
@@ -52,14 +66,15 @@
 			</tr>                
  
  	</table>
-    <h2>Music</h2>
+    <h1>Music</h1>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/izhxTx4LVWo" frameborder="0" allowfullscreen></iframe>
     <table id="music">
 
    			<tr>
-    			<th>Title</th>
-    			<th>Artist</th>
-    			<th>Album</th>
-    			<th>Link to Lyrics</th>
+    			<th id="lin">Title</th>
+    			<th id="lin">Artist</th>
+    			<th id="lin">Album</th>
+    			<th id="lin">Link to Lyrics</th>
    			</tr>
    			<tr>
    			 	<td>Moonshine Freeze</td>
@@ -85,8 +100,10 @@
     			<td>Insomniac</td>
     			<td><a 									href="https://www.azlyrics.com/lyrics/greenday/stuckwithme.html">Stuck With Me</a></td>
    			</tr>
+           
+  		</table>  
+        <img src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif">
    
-  		</table>    
 
 	</body>
 </html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+      box-sizing: border-box;
+      }
+     .header, .footer {
+       background-color:Maroon;
+       color: white;
+       padding: 15px;
+      }
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .menu {
+        width: 25%;
+       }
+      .content {
+        width: 75%;
+       }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: Teal;
+        color: #ffffff;
+        }
+      .menu li:hover {
+        background-color: #29a3a3;
+        }
+    </style>
+  </head>
+  <body>
+
+   <div class="header">
+    <h1>Enver Creek Secondary</h1>
+  </div>
+
+  <div class="clearfix">
+   <div class="column menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+  	<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Welcome</h1>
+    <p>Enver Creek is a beautiful school which thrives to improve the academic achievement and literacy skills of the students. It is one of the highest rated school in Surrey, B.C. We are part of a multicultural and welcoming community. </p>
+    <p>Our job is to do our best to provide our students with what is good for them.</p>
+  </div>
+  </div>
+
+  <div class="footer">
+    <p>Contact Us</p>
+    <p>604-879-3454</p>
+  </div>
+
+ </body>
+</html>

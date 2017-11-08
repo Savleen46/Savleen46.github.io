@@ -3,24 +3,40 @@
 
 <head>
 <style>
-body {
-    background-image: url("http://jeffballardcontracting.com/wp-content/uploads/background-dark-brown-wood.png");}
+
     
-    .lol{ background-color: #4d2600;
-       color: white;
-       padding: 15px;
-       font-family:Georgia;
-       border:2px solid black;}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+    
+   
        
-        .uio{background-color:#4d2600;
-       color: white;
-       padding: 25px;
-       
-       float:left;
-       
-       }
-       
-       img{width: 100%;
+       #img1{width: 100%;
     height: auto;}
       
      
@@ -29,18 +45,23 @@ body {
       height:300px;
       width:400px;
       float:left;
-      padding-right:15px;}
+      padding-right:25px;
+      }
       
-      .image{position: relative; }
-     
-     h1{position: absolute; 
-   top: 40%; 
-    left:5%;
-   width: 100%;
-   color:white;
+      .uio{background-color:black;
+       color: white;
+       padding: 25px;
+       
+       float:left;
+       
+       }
    
+      h1{border:2px solid black;
+      text-align:center;}
       
-      
+      .footer{background-color:black;
+       color: white;
+       padding: 15px;}
 </style>
 
 <title>Le Sourire Cafe</title>
@@ -53,28 +74,31 @@ body {
 
 
 <div class="lol">
-<table style="width:100%" align="center">
-   <tr>
-      <td>Home</td>
-          <td>Menu</td>
-       <td>Contact</td>
-   </tr>
-</table>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+
+</ul>
 </div>
 
-<div class="image">
-<h1><span>Le Sourire Cafe</span></h1>
 
-<img src ="https://i2-prod.mirror.co.uk/incoming/article10381392.ece/ALTERNATES/s1200/PROD-Coffee-and-beans.jpg" width="700" height="700">
-</div>
+<h1>Le Sourire Cafe</h1>
+
+<img src ="http://www.riversidehappenings.com/wp-content/uploads/2016/12/Coffee-shops.jpg" width="700" height="700" id="img1">
+
 
 <div class="uio">
-<img src="https://ats-alltopstartups.netdna-ssl.com//wp-content/uploads/2016/12/How-to-Open-a-Coffee-Shop-.png" width="400" height="600" id="img2">
+<img src="https://sits-pod37.demandware.net/dw/image/v2/BBBG_PRD/on/demandware.static/-/Sites-product-master/default/dw359dbb3c/images/large/32-993_2.jpg?sw=533&sh=533&sm=fit" width="400" height="600" id="img2">
 <h2>About Us</h2>
-<p>On September 15, 2001, Le Sourire Cafe opened at 13456 Spenser Street. It was a small shop but over the years it enlarged because of the help of donars to make this shop a better place. Now we make and sell the best coffees and teas available. We went through a lot of struggle putting this shop together but we acheived our goals and reached the top. This shop is our home. We meet many new people here in which many help us import food from local stores.From the beginning we envsioned Le Sourire Cafe more than a place to get a coffee. We strive to create a better atmosphere and a place where others can get together and forget about work for as long as they want. Several famous books have been written on our coffee tables and several marrigaes have taken place at our shop. We take full responsibilty towards your health and we serve non-allergic food as well. Anything from coffe to our food servings can be changed if you consist of any allergies.We take pride in being a good coffee shop. We are fortunate for those awards we have gotten.We intend to endure long in the future. We will continue to do the good work we have been doing to make you proud.Thank You for making us #1</p>
-
-
+<p>On September 15, 2001, Le Sourire Cafe opened at 13456 Spenser Street. It was a small shop but over the years it enlarged because of the help of donars to make this shop a better place. Now we make and sell the best coffees and teas available. We went through a lot of struggle putting this shop together but we acheived our goals and reached the top. This shop is our home. We meet many new people here in which many help us import food from local stores.From the beginning we envsioned Le Sourire Cafe more than a place to get a coffee. We strive to create a better atmosphere and a place where others can get together and forget about work for as long as they want. Several famous books have been written on our coffee tables and several marrigaes have taken place at our shop. We take full responsibilty towards your health and we serve non-allergic food as well. Anything from coffe to our food servings can be changed if you consist of any allergies.We take pride in being a good coffee shop. We are fortunate for those awards we have gotten.We intend to endure long in the future. We will continue to do the good work we have been doing to make you proud.Thank You for making us #1.</p>
 </div>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC" width="0" height="0">
+ <div class="footer">
+ <p>Contact us @ 778-565-7898<p>
+ </div>
+
+
 
 
 

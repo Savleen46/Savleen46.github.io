@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
 
-alert()
+
+<script>
+
+   alert();
+    
+
+</script>
+
+</body>
+</html>
 

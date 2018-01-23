@@ -114,6 +114,10 @@ switch (after) {
   case '6':
     confirm('You have chosen well. Now you are confronted with a fairy. She says "Hello there. I am the defender of these woods. In order to pass you must answer my riddle."');
     break;
+  case '7':
+    confirm("WRONG PATH. YOU LOSE!");
+    exit();
+    break;
   default:
     confirm("WRONG PATH. YOU LOSE!");
     exit();
@@ -151,7 +155,24 @@ switch (next) {
     confirm('How do you expect to complete this mission with those typing skills. You have failed your mission.');
     exit();
 }
+
+var calo = prompt('Now, you see a bridge but it seems unsteady. However, the water is not as deep so you can also enter the water to go across. BRIDGE or WATER').toUpperCase();
+
+switch (calo){
+    case 'BRIDGE':
+              confirm('You cross the bridge safely!');
+              break;
+    case 'WATER':
+             confirm('You have no idea whats in the water or if it is infact "water". You LOSE');
+             exit();
+             break;
+    default:
+        confirm('Nope! You LOSE');
+        exit();
+        }
+
 var yuoi = confirm('Next you see a large door that has a message that says "By the name of great MARICOONICUSAL, you may open the door." You open it and you see 3 mirrors. Your friend is in each mirror.');
+
 var giut = prompt("Beside each mirror is a statue and they speak. 'Hello fellow player, we are the defender of these woods.' (Two of the statues are liars. Only one speaks the truth.) The first statue says: Your friend is in this mirror. The second statue says: Your friend is not in this mirror. The third staue says: Your friend is not in statue 1's mirror. Which mirror is your friend in? MIRROR 1, MIRROR 2, or MIRROR 3.").toUpperCase();
 switch (giut) {
   case 'MIRROR 2':
@@ -185,3 +206,4 @@ switch (titu) {
 
 </body>
 </html>
+

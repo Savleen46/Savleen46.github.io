@@ -8,27 +8,37 @@
       background : black;}
         h1 { font-family : Impact;
         color: white;
-        margin : 200px 440px;
+        text-align : center;
         font-size : 100px;} 
         
-
-  button { margin: 0px 540px;
+  button { align : center;
             font-family : Georgia;
             width : 100px;
             height : 30px;
             font-size : 15px;
             border : 1px solid white;
-            font-weight : bold;}
+            font-weight : bold;
+            position: fixed;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;}
+            
+     
       </style>
+      
    </head>
 <body>
+
 <h1>YOUKAI</h1>
 
+
 <button onclick="setTimeout(myFunction, 1000)">Start</button>
+
+
 <script>
 function myFunction() {
-
-
    var umla = confirm("Are you Ready?");
 var intro = prompt("You find an envelope on your bed. It doesn't say who it's from. What do you do? OPEN IT, THROW IT AWAY, or SAVE IT for later.").toUpperCase();
 switch (intro) {

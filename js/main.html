@@ -61,7 +61,7 @@ switch (intro) {
     confirm("You have failed to type in the proper answer. YOU LOSE!");
     exit();
 }
-var insi = confirm("Hello Earthling, I am leader of great causes, MARICOONICUSAL, and leader of the Youkai. Your firend, Malian, is with us. She is alive but will not be for long if you do not accept our offer. You must obey whatever we say to help your friend. We need someone, a smart individual like you to test our traps if an intruder enters our planet. If you help us, we will free you and your friend. If you wish to disobey us then you and your friend shall DIE!");
+var insi = confirm("Hello Earthling, I am leader of great causes, MARICOONICUSAL, and leader of the Youkai. Your friend, Malian, is with us. She is alive but will not be for long if you do not accept our offer. You must obey ONLY ME in order to help your friend. We need someone, a smart individual like you to test our traps if an intruder enters our planet. If you help us, we will free you and your friend. Your loyalty will prove what you want!");
 var cal = prompt("At the bottom of the letter you see a small circle. Beside the small circle it says 'Place your finger here if you agree.' Do you AGREE, DISAGREE or CALL 911").toUpperCase();
 switch (cal) {
   case 'AGREE':
@@ -171,6 +171,17 @@ switch (calo){
         confirm('Nope! You LOSE');
         exit();
         }
+ 
+var insert = prompt('All of a sudden a map appears in front of you. It says by the name of the great lord MARICOONICUSAL, you must follow this map to find your destination. What do you do? FOLLOW THE MAP, or IGNORE THE MAP.').toUpperCase();
+
+switch (insert){
+       case 'FOLLOW THE MAP':
+             confirm ('You follow the map and it leads you to a large mansion.');
+             break;
+       case 'IGNORE THE MAP':
+             confirm ('In the beginning you were told to obey everything that is said to you by the the great MARICOONICUSAL. You disobeyed him. YOU LOSE!');
+             exit();
+             }
 
 var yuoi = confirm('Next you see a large door that has a message that says "By the name of great MARICOONICUSAL, you may open the door." You open it and you see 3 mirrors. Your friend is in each mirror.');
 
